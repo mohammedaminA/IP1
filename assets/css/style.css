@@ -1,0 +1,173 @@
+/*
+*
+* BODY
+*
+*/
+body {
+    background-color: rgb(240, 240, 255);
+}
+
+
+/*
+*
+* navigation
+*
+*/
+nav {
+    background-color: #002e6d;
+    color: white !important;
+}
+
+nav a.nav-link {
+    color: white !important;
+}
+
+nav a.nav-link:hover {
+    color: #ff0000 !important;
+}
+
+
+
+/*
+*
+* header
+*
+*/
+
+header{
+    height: 350px;
+    background-image: url("/assets/images/ALU-campus-.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .header-text {
+    margin: 100px 160px;
+
+    width: 70%;
+    text-align: center;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+}
+
+
+section.intro {
+    padding: 5%;
+    text-align: center;
+}
+
+section.entrepreneurship {
+    background-color: #002e6d;
+    color: white;
+    height: 520px;
+}
+
+section .half-one {
+    padding: 5%;
+}
+
+section .half-two img{
+    height: 65% !important;
+}
+
+section.undergraduate {
+    background-color: whitesmoke;
+    padding: 5%;
+}
+
+section.undergraduate h1 {
+    margin-bottom: 50px;
+}
+
+section.undergraduate .card {
+    background-color: #002e6d;
+    color: white;
+    height: 170px;
+}
+
+section.undergraduate .card:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+    border: solid;
+    border-width: thin;
+    border-color: #ff0000;
+    transition: 0.35s;
+}
+section.undergraduate .card h4{
+    margin: 65px 0;
+}
+
+section.undergraduate a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #002e6d;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+/*
+*
+* Computing Page
+*
+*/
+
+section.modules {
+    padding: 5%;
+}
+
+section.modules h4 {
+    margin-bottom: 40px;
+}
+
+section.modules .card {
+    padding: 4%;
+    height: 175px;
+    margin: 2%;
+    border: none !important;
+    
+}
+
+section.modules .card:hover {
+    background-color: #002e6d;
+}
+
+section.modules .card:hover h4{
+    color: white !important;
+}
+
+section.modules .card:hover ul{
+    color: white !important;
+}
+
+section.modules .card h4 {
+ margin-bottom: 0;
+ color: #ff0000;
+}
+
+section.modules .col-md-4 ul {
+    list-style-type: none;
+    color: #000000;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+section.modules .card ul li{
+    font-size: medium;
+    font-weight: normal;
+}
+
+section.coursework {
+    background-color: #002e6d;
+    padding: 5%;
+}
+
+section.coursework .card{
+    text-align: center;
+    padding: 32% 0;
+    border-radius: 0px !important;
+    border: none !important;
+    margin: 10px 0;
+    height: 175px;
+}
