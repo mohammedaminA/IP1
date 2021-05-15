@@ -171,3 +171,19 @@ section.coursework .card{
     margin: 10px 0;
     height: 175px;
 }
+
+section.coursework .half-two .card{
+    height: 110px;
+    font-size: small !important;
+}
+
+section.technologies {
+    padding-top: 5%;
+    text-align: center;
+}
+
+section.technologies h4 {
+    display: inline-block;
+    margin: 10px 30px;
+    color: #ff0000;
+}
