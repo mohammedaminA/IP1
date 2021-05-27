@@ -187,3 +187,101 @@ section.technologies h4 {
     margin: 10px 30px;
     color: #ff0000;
 }
+
+/* 
+*Footer
+*/
+ooter{
+    background-color: #002e6d;
+    padding: 40px;
+    color: white;
+}
+
+
+
+footer h2{
+    font-size: 15px;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+   
+
+}
+
+footer h3{
+    font-size: 20px;
+    font-weight:bold;
+    padding-top:30px;
+    color: #d0202f;
+   
+
+}
+
+
+
+footer #Links a{
+
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+footer ul{
+    position: relative;
+    left: -45px;
+}
+
+
+
+footer #QuickLinks{
+    position: relative; 
+    left: 10%;
+}
+
+
+
+
+footer ul li a{
+    color: white ;
+    list-style-type: none;
+}
+
+footer ul li a:hover{
+    color: white ;
+    list-style-type: none;
+}
+
+.content3 {
+    min-height: calc(100vh - 40px);
+  }
+
+
+/*
+* Author Page Media Links
+ */
+
+ #socialLinks a {
+    padding: 25px;
+ }
+
+
+
